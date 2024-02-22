@@ -1,4 +1,4 @@
-class cardDestacados extends HTMLElement {
+class CardDestacados extends HTMLElement {
 	constructor() {
 		super();
 		this.attachShadow({ mode: 'open' });
@@ -27,5 +27,5 @@ class cardDestacados extends HTMLElement {
 	}
 }
 
-customElements.define('card-destacados', cardDestacados);
-export default cardDestacados;
+customElements.define('card-destacados', CardDestacados);
+export default CardDestacados;
