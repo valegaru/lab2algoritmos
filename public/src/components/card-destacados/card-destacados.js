@@ -5,17 +5,25 @@ class cardDestacados extends HTMLElement {
 	}
 
 	static get observedAttributes() {
-		return ['lo que es dinamico'];
+		return ['message'];
 	}
 
 	connectedCallback() {
 		this.render();
 	}
 
-	attributeChangeCallback(propName, oldValue, newValue) {}
+	//Este metodo le da un nuevo valores a las propiedades cada vez que las cambiamos
+	//que queremos observar
+	attributeChangeCallback(propName, oldValue, newValue) {
+		this[propName] = newValue;
+		this.render();
+	}
 
 	render() {
-		this.shadowRoot.innerHTML = <link rel='stylesheet' href='./src/components/card1/card1.css'></link>;
+		this.shadowRoot.innerHTML = `
+			<link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
+			<p>${this.message || `aca voy poniendo lo que contiene el elemento`}</p>
+			`;
 	}
 }
 
