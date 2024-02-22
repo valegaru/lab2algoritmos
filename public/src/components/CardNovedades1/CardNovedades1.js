@@ -5,15 +5,15 @@ class CardNovedadesLarge extends HTMLElement {
 	}
 
 	static get observedAttributes() {
-		return ['label'];
+		return ['label', 'date', 'title', 'preview', 'href', 'image'];
 	}
 
 	connectedCallback() {
 		this.render();
 	}
 
-	//Este metodo le da un nuevo valores a las propiedades cada vez que las cambiamos
-	//que queremos observar
+	// Este método actualiza las propiedades cada vez que se modifican
+	// y que queremos observar
 	attributeChangedCallback(propName, oldValue, newValue) {
 		this[propName] = newValue;
 		this.render();
@@ -21,10 +21,17 @@ class CardNovedadesLarge extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
-			<link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
-			<p>${this.message || `aca voy poniendo lo que contiene el elemento`}</p>
-
-			`;
+          <link rel='stylesheet' href='./src/components/CardNovedades1/CardNovedades1.css'></link>
+          <div class="imagenprincipal">
+            <img src="${this.image}" />
+          </div>
+          <div class="piedeimgen">
+            <p class="fecha">${this.date}</p>
+            <h3 class="titulo">${this.title}</h3>
+            <p class="resumen">${this.preview}</p>
+            <span class="leermas">Leer más</span>
+          </div>
+      `;
 	}
 }
 

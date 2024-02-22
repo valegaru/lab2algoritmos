@@ -19,15 +19,13 @@ class SubBanner extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
-          <link rel='stylesheet' href='./src/components/FALTA'></link>
+          <link rel='stylesheet' href='./src/components/SubBanner/SubBanner.css'></link>
           <h2 class="titulo" >${this.title || 'titulo'}</h2>
-          <a aria-label="${this.title}">
               <div class="firstbutton">
                   <div class="imagendiv">
-                      <img alt="${this.title}" src="${this.imageSrc || 'imagen'}" />
+                      <img src="${this.imageSrc || 'imagen'}" />
                   </div>
               </div>
-          </a>
           <h3>${this.subtitle || 'subtitulo'}</h3>
           <button type="button">${this.label || 'boton'}</button>
       `;
