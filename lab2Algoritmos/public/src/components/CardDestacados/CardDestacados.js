@@ -19,7 +19,7 @@ class CardDestacados extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
-					<link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
+					<link rel='stylesheet' href='./src/components/CardDestacados/CardDestacados.css'></link>
 					<a class="CardDestacados" href="#">
 							<div class="imgDestacados">
 									<img src="${this.image || 'URL_default_imagen'}" alt="Product Image" loading="lazy">
