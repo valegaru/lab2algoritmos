@@ -16,6 +16,7 @@ class AppContainer extends HTMLElement {
 			<card-destacados></card-destacados>
 			<my-banner title='hola Omar'></my-banner>
 			<card-novedades-l></card-novedades-l>
+			<card-novedades-s></card-novedades-s>
 			`;
 	}
 }
