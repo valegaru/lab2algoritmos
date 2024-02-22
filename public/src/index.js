@@ -1,7 +1,8 @@
 //abuelo
 // importar todo de padre
 
-import * as components from './components/index';
+import SubBanner as sub from './components/sub-banner/sub-banner.js'; 
+import * as components from './components';
 
 class AppContainer extends HTMLElement {
 	constructor() {

@@ -1,11 +1,11 @@
 //padre
 
-export { default as CardDestacados } from './card-destacados/card-destacados.js';
+export { default as CardDestacados } from './CardDestacados/CardDestacados.js';
 
-export { default as CardNovedadesLarge } from './card-novedades-l/card-novedades-l.js';
+export { default as CardNovedadesLarge } from './CardNovedadesL/CardNovedadesL.js';
 
-export { default as CardNovedadesSmall } from './card-novedades-s/card-novedades-s.js';
+export { default as CardNovedadesSmall } from './CardNovedadesS/CardNovedadesS.js';
 
-export { default as CardPrecio } from './card-precio/card-precio.js';
+export { default as CardPrecio } from './CardPrecio/CarsPrecio.js';
 
-export { default as SubBanner } from './subbanner/subbaner.js';
+export { default as SubBanner } from './SubBanner/SubBanner.js';
