@@ -6,17 +6,74 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<a class="card" aria-label="${this.title}" href="${this.href}">
-			<div class="imagenprincipal">
-				<img src="${this.image}" />
-			</div>
-			<div class="piedeimgen">
-				<p class="fecha">${this.date}</p>
-				<h3 class="titulo">${this.title}</h3>
+		**novedades**
+		<a
+			class="BasicTilestyles__Tile-sc-1bsju6x-1 gcuZTC NewsTilestyles__Tile-sc-1h6e8cs-2 KixqZ"
+			aria-label="Contenido descargable de Splatoon 3: ¡Ya está disponible la nueva y cheverísima campaña para un solo jugador!"
+			href="/es-co/whatsnew/contenido-descargable-de-splatoon-3-ya-esta-disponible-la-nueva-y-cheverisima-campana-para-un-solo-jugador/"
+			><div class="BasicTilestyles__TileUpper-sc-1bsju6x-2 jGRRCH" style="transform: none"
+				><div class="BasicTilestyles__ImageFrame-sc-1bsju6x-8 yXdkK"
+					><div class="KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"
+						><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"
+							><img
+								alt=""
+								loading="lazy"
+								fetchpriority="low"
+								class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS"
+								src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_600/ncom/en_US/articles/2024/side-order-the-new-splatoon-3-single-player-campaign-dlc-is-available-now/1920x1080_Splatoon3_SideOrder_SP" /></div></div></div></div
+			><div class="BasicTilestyles__TileLower-sc-1bsju6x-4 jqUgpi"
+				><div class="BasicTilestyles__Info-sc-1bsju6x-6 dqvLQN"
+					><p class="NewsTilestyles__Date-sc-1h6e8cs-3 jayxay">22/02/24</p
+					><div class="tilestyles__TitleWrapper-sc-eg7slj-1 bpYNbT" style="color: rgb(72, 72, 72)"
+						><h3
+							class="Headingstyles__StyledH-sc-s17bth-0 vsVuC Textstyles__StyledTitle-sc-w55g5t-0 lcSxww tilestyles__Title-sc-eg7slj-2 bzxrZf"
+							>Contenido descargable de Splatoon 3: ¡Ya está disponible la nueva y cheverísima campaña para un solo
+							jugador!</h3
+						></div
+					><p class="NewsTilestyles__Preview-sc-1h6e8cs-4 fcCez"
+						>Damas y calameros, nos sentimos orgullosos de anunciar que ya puedes ordenar (porque ya está disponible) el
+						contenido descargable* del juego Splatoon™ 3: La cara del orden. Esta segunda ola de contenido descargable
+						del Pase de expansión de Splatoon™…</p
+					><div class="tilestyles__Row-sc-eg7slj-0 dttZIF"
+						><span class="Linkstyles__StyledContents-sc-1o4eb18-0 NewsTilestyles__LinkStyle-sc-1h6e8cs-1 hLZPVT ipOMzZ"
+							>Leer más</span
+						></div
+					></div
+				></div
+			></a
+		>
 
-				<p class="resumen">${this.preview}</p>
-				<span class="leermas">Leer más</span>
+		<a class="CardPrecio" href="#">
+			<div class="imgPrecio">
+				<img src="${this.image || 'URL_default_imagen'}" alt="Product Image" loading="lazy" />
 			</div>
-		</a>
+			<div class="ContenidoDestacados">
+				<h3 class="tituloDestacados">${this.label || 'Título del Producto'}</h3>
+				<p>${this.date || 'date'}</p>
+				<div class="mensajeDestacados">${this.description || 'Descripción del Producto'}</div>
+				<p>${this.price || 'Precio'}</p>
+				<div class="consolaDestacados">
+					<span>${this.platform || 'Plataforma'}</span>
+				</div>
+				<button
+					class="WishlistButtonstyles__Heart-sc-1ud0cp0-0 iVkbLZ ProductTilestyles__WishlistHeart-sc-m1loqs-0 eOhczy"
+					title="Agregar a la lista de deseos"
+					aria-label="Agregar a la lista de deseos"
+					aria-pressed="false"
+				>
+					<svg
+						viewBox="0 0 54 54"
+						fill="currentColor"
+						stroke="currentColor"
+						width="24"
+						role="presentation"
+						alt=""
+						data-testid="heartspark"
+						color="currentColor"
+						size="24"
+					></svg>
+				</button>
+			</div> </a
+		>`; }
 	</body>
 </html>
