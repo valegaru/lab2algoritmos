@@ -1,6 +1,7 @@
 {
 	"name": "lab2algoritmos",
 	"version": "1.0.0",
+	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"start": "serve"
@@ -8,7 +9,6 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"description": "",
 	"devDependencies": {
 		"serve": "^14.2.1"
 	}
