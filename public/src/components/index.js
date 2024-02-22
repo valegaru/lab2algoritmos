@@ -8,4 +8,4 @@ export { default as CardNovedadesSmall } from './card-novedades-s/card-novedades
 
 export { default as CardPrecio } from './card-precio/card-precio.js';
 
-export { default as Subbanner } from './subbanner/subbaner.js';
+export { default as SubBanner } from './subbanner/subbaner.js';

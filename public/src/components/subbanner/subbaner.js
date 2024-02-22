@@ -1,4 +1,4 @@
-class Subbanner extends HTMLElement {}
+class SubBanner extends HTMLElement {}
 
-customElements.define('subbaner', Subbanner);
-export default Subbanner;
+customElements.define('sub-baner', SubBanner);
+export default SubBanner;

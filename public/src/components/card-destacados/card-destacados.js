@@ -5,25 +5,33 @@ class CardDestacados extends HTMLElement {
 	}
 
 	static get observedAttributes() {
-		return ['message'];
+		return ['label', 'image', 'description', 'platform'];
 	}
 
 	connectedCallback() {
 		this.render();
 	}
 
-	//Este metodo le da un nuevo valores a las propiedades cada vez que las cambiamos
-	//que queremos observar
-	attributeChangeCallback(propName, oldValue, newValue) {
+	attributeChangedCallback(propName, oldValue, newValue) {
 		this[propName] = newValue;
 		this.render();
 	}
 
 	render() {
 		this.shadowRoot.innerHTML = `
-			<link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
-			<p>${this.message || `aca voy poniendo lo que contiene el elemento`}</p>
-			`;
+					<link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
+					<a class="CardDestacados" href="#">
+							<div class="imgDestacados">
+									<img src="${this.image || 'URL_default_imagen'}" alt="Product Image" loading="lazy">
+							</div>
+							<div class="ContenidoDestacados">
+									<h3 class="tituloDestacados">${this.label || 'Título del Producto'}</h3>
+									<div class="mensajeDestacados">${this.description || 'Descripción del Producto'}</div>
+									<div class="consolaDestacados">
+											<span>${this.platform || 'Plataforma'}</span>
+									</div>
+							</div>
+					</a>`;
 	}
 }
 
