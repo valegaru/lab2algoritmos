@@ -14,6 +14,7 @@ class AppContainer extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
 			<card-destacados></card-destacados>
+			<my-banner></my-banner>
 			`;
 	}
 }
