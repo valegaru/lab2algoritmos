@@ -20,7 +20,7 @@ class CardPrecio extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
           <link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
-          <a class="CardPrecio" href="#">
+          <a class="CardPrecio">
           <div class="imgPrecio">
             <img src="${this.image || 'URL_default_imagen'}"/>
           </div>
@@ -32,19 +32,13 @@ class CardPrecio extends HTMLElement {
             <div class="consolaDestacados">
               <span>${this.platform || 'Plataforma'}</span>
             </div>
-            <button
-			class="WishlistButtonstyles__Heart-sc-1ud0cp0-0 iVkbLZ ProductTilestyles__WishlistHeart-sc-m1loqs-0 eOhczy"
-			title="Agregar a la lista de deseos"
-			aria-label="Agregar a la lista de deseos"
-			aria-pressed="false"
+            <button title="Agregar a la lista de deseos"
 			><svg
 				viewBox="0 0 54 54"
 				fill="currentColor"
 				stroke="currentColor"
 				width="24"
 				role="presentation"
-				alt=""
-				data-testid="heartspark"
 				color="currentColor"
 				size="24"
 			>
