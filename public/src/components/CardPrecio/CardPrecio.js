@@ -19,7 +19,7 @@ class CardPrecio extends HTMLElement {
 	}
 	render() {
 		this.shadowRoot.innerHTML = `
-          <link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
+          <link rel='stylesheet' href='./src/components/CardPrecio/CarPrecio'></link>
           <a class="CardPrecio">
           <div class="imgPrecio">
             <img src="${this.image || 'URL_default_imagen'}"/>

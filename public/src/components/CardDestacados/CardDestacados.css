@@ -1,0 +1,39 @@
+.CardDestacados {
+	--rem: 16;
+	--border-radius-small: 0.5rem;
+	--border-radius: 0.75rem;
+	--app-height: 826px;
+	font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: rgb(72, 72, 72);
+	-webkit-font-smoothing: antialiased;
+	flex-shrink: 0;
+	box-sizing: content-box;
+	min-width: 208px;
+	max-width: 268px;
+	margin: 1.5rem 1rem;
+	width: calc(40% - 0.4rem);
+	margin-left: 0px;
+}
+
+img {
+	font-size: 16px;
+	line-height: 1.4;
+	border-top-left-radius: var(--border-radius);
+	border-top-right-radius: var(--border-radius);
+	overflow: hidden;
+	flex-shrink: 0;
+	z-index: 2;
+	border-width: 1px 1px 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(218, 218, 218);
+	border-right-color: rgb(218, 218, 218);
+	border-left-color: rgb(218, 218, 218);
+	border-image: initial;
+	background-color: rgb(255, 255, 255);
+	border-bottom-style: initial;
+	border-bottom-color: initial;
+}

@@ -13,6 +13,7 @@ class AppContainer extends HTMLElement {
 
 	render() {
 		this.shadowRoot.innerHTML = `
+		<link rel='stylesheet' href='./src/index.css'></link>
 		<nav>
 		<header>
 		<div id="logonintendo">
@@ -139,7 +140,7 @@ class AppContainer extends HTMLElement {
 <div id="abajobanner">
 
 	<h2>¡Una clásica rivalidad ha regresado!</h2>
-	<button type="button">Disponible ya</button>
+	<button type="button" id="botonbanner">Disponible ya</button>
 
 
 	<div id="foreveryone">
@@ -179,7 +180,8 @@ class AppContainer extends HTMLElement {
 
 </section>
 		<hr>
-		<section><h2>Destacados</h2></section>
+		<section id="bigdestacados"><h2>Destacados</h2>
+		<section id="destacados">
 
 			<card-destacados image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/en_US/merchandising/feature-banner/N531KN2tQZ/i7a6mlD0xI3/Switch_16x9_PrincessPeachShowtime_KeyArt'
 			label='Princess Peach Showtime!'
@@ -209,25 +211,27 @@ class AppContainer extends HTMLElement {
 			description='Disponible ya'
 			platform='Nintendo Switch'
 			></card-destacados>
-
+			</section>
+			</section>
 			<hr>
 <section class="tienda">
 <my-banner title='Tienda de juegos'
 image='https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_800/ncom/es_LA/merchandising/homepage-banners/4576x744_LATAM_GameStoreBanner_01_SP'
 subtitle='¡Compra, descarga y juega de inmediato!'
-label'Comprar juegos'
+label='Comprar juegos'
 ></my-banner>
 </section>
 <hr>
-<section class="Explora">
+<section class="explora">
 <my-banner title='Explora las consolas de videojuegos'
 image='https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_800/ncom/en_US/switch/site-design-update/switch-family-es'
-subtittle='Familia Nintendo Switch'
+subtitle='Familia Nintendo Switch'
 label='Más detalles'></my-banner>
 </section>
 <hr>
 
-<section><h2>Novedades</h2>
+<section id="novedades"><h2>Novedades</h2>
+<section id="novlarge">
 			<card-novedades-l
 			image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_600/ncom/en_US/articles/2024/side-order-the-new-splatoon-3-single-player-campaign-dlc-is-available-now/1920x1080_Splatoon3_SideOrder_SP'
 			date='22/02/24'
@@ -244,9 +248,9 @@ label='Más detalles'></my-banner>
 			preview='¿Quieres disfrutar algunos juegos clásicos? Los suscriptores de Nintendo Switch Online obtienen acceso instantáneo
 			a un gran catálogo de juegos de Game Boy™, Super NES™ y NES™. Por su parte, los suscriptores de Nintendo Switch
 			Online + Paquete de ex…'></card-novedades-l>
+			</section>
 
-
-
+			<section id="novsmall">
 			<card-novedades-s
 			image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/en_US/articles/2024/try-the-latest-game-trial-ea-sports-fc-24/Ncom-NSO-1920x1080-SP_v01'
 			date='19/02/24'
@@ -266,8 +270,8 @@ label='Más detalles'></my-banner>
 			image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_400/ncom/en_US/articles/2024/discover-lara-crofts-original-adventures-in-tomb-raider-i-iii-remastered/1920x1080_TombRaider'
 			date='14/02/24'
 			title='Descubre las aventuras originales de Lara Croft en Tomb Raider I-III Remastered'></card-novedades-s>
-
-			<button type="button">Ver todos los articulos de noticias</button>
+</section>
+			<button type="button" id="botonnovedades">Ver todos los articulos de noticias</button>
 			</section>
 
 			<section><h2>Los más vendidos de Nintendo Switch</h2>

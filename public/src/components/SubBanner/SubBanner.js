@@ -20,14 +20,19 @@ class SubBanner extends HTMLElement {
 	render() {
 		this.shadowRoot.innerHTML = `
           <link rel='stylesheet' href='./src/components/SubBanner/SubBanner.css'></link>
+					<section class="container">
           <h2 class="titulo" >${this.title || 'titulo'}</h2>
               <div class="firstbutton">
                   <div class="imagendiv">
                       <img src="${this.image || 'imagen'}" />
                   </div>
               </div>
+							<div class="avisoboton">
           <h3>${this.subtitle || 'subtitulo'}</h3>
           <button type="button">${this.label || 'boton'}</button>
+					</div>
+					</section>
+
       `;
 	}
 }
