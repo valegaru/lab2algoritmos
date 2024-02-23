@@ -21,7 +21,7 @@ class CardDestacados extends HTMLElement {
 		this.shadowRoot.innerHTML = `
 					<link rel='stylesheet' href='./src/components/CardDestacados/CardDestacados.css'></link>
 					<a class="CardDestacados" href="#">
-							<div class="imgDestacados">
+							<div class="imgDestacados" style="background-image: url('${this.image || 'URL_default_imagen'}')">
 									<img src="${this.image || 'URL_default_imagen'}" alt="Product Image" loading="lazy">
 							</div>
 							<div class="ContenidoDestacados">

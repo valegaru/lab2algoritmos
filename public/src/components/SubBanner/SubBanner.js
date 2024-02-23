@@ -5,7 +5,7 @@ class SubBanner extends HTMLElement {
 	}
 
 	static get observedAttributes() {
-		return ['title', 'image-src', 'subtitle', 'label'];
+		return ['title', 'image', 'subtitle', 'label'];
 	}
 
 	connectedCallback() {
@@ -23,7 +23,7 @@ class SubBanner extends HTMLElement {
           <h2 class="titulo" >${this.title || 'titulo'}</h2>
               <div class="firstbutton">
                   <div class="imagendiv">
-                      <img src="${this.imageSrc || 'imagen'}" />
+                      <img src="${this.image || 'imagen'}" />
                   </div>
               </div>
           <h3>${this.subtitle || 'subtitulo'}</h3>
