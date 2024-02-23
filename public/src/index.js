@@ -106,7 +106,7 @@ label='Más detalles'></my-banner>
 
 			<section><h2>Los más vendidos de Nintendo Switch</h2>
 			<a>Ver la lista completa</a>
-			<card-precio img='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000003402/057249cf707a2a733c876c0eb453bb018ee6ea09f3aea5c350f4d76f70840d00'
+			<card-precio image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000003402/057249cf707a2a733c876c0eb453bb018ee6ea09f3aea5c350f4d76f70840d00'
 			label='Overcooked! 2'
 			date='1/9/21'
 			description='La oferta termina en: <span>16 días</span>'
@@ -114,27 +114,25 @@ label='Más detalles'></my-banner>
 			platform='Nintendo Switch'
 			></card-precio>
 
-			<card-precio img=''
-			label=''
-			date=''
+			<card-precio image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000068688/1c5583f6bbce5bccdc923c25c35ba8f42128b55df84f4a2fbeea74b6d1d1516e'
+			label='Super Mario Bros.™ Wonder'
+			date='20/10/23'
 			description=''
-			price=''
+			price='328.600,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
-			<card-precio img=''
-			label=''
-			date=''
-			description=''
-			price=''
+			<card-precio image='KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"><img alt="" loading="lazy" fetchpriority="low" class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS" src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000049931/cf8adb2c74522b91412eb40b9d77216e8f8436fc4e63731e0dc262e6666930eb'
+			label='Nintendo Switch™ Sports'
+			date='29/4/22'
+			price='219.000,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
-			<card-precio img=''
-			label=''
-			date=''
-			description=''
-			price=''
+			<card-precio image='KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"><img alt="" loading="lazy" fetchpriority="low" class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS" src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453'
+			label='Mario Kart™ 8 Deluxe'
+			date='28/4/17'
+			price='328.600,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
@@ -143,35 +141,33 @@ label='Más detalles'></my-banner>
 			<section><h2>Nuevos lanzamientos de Nintendo Switch</h2>
 			<a>Ver la lista completa</a>
 
-			<card-precio img=''
-			label=''
-			date=''
-			description=''
-			price=''
+			<card-precio image='KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"><img alt="" loading="lazy" fetchpriority="low" class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS" src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000072191/b6b4d48d8cba9a8717c6d60857444232ac863789e112f88bb51414ec153aa8f0'
+			label='Mario vs. Donkey Kong™'
+			date='16/2/24'
+			description='¡Nuevo!'
+			price='273.800,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
-			<card-precio img=''
-			label=''
-			date=''
-			description=''
-			price=''
+			<card-precio image='KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"><img alt="" loading="lazy" fetchpriority="low" class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS" src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000072196/a0791bd734bb7fab6e666fac84b3861283a2609f0f98a477afbc59d62cb06271'
+			label='Another Code™: Recollection'
+			date='19/1/24'
+			description='Versión de prueba gratuita'
+			price='328.600,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
-			<card-precio img=''
-			label=''
-			date=''
-			description=''
-			price=''
+			<card-precio image='KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"><img alt="" loading="lazy" fetchpriority="low" class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS" src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000068678/5b072b55e8a6993071b4cde9f74d9cf7aeac0b52141177efed6c8ce9b580a435'
+			label='WarioWare™: Move It!'
+			date='3/11/23'
+			price='273.800,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
-			<card-precio img=''
-			label=''
-			date=''
-			description=''
-			price=''
+			<card-precio image='KeyArtstyles__StyledFrame-sc-u7um7j-0 bjkjEP"><div class="Imagestyles__ImageWrapper-sc-1244ond-0 PjcqG"><img alt="" loading="lazy" fetchpriority="low" class="Imagestyles__CloudinaryImage-sc-1244ond-1 gUGinS" src="https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000068683/fe4afe940b0e707798332e86f0af56cdbde48da59dc37cdfb8d59febb88ac72a'
+			label='Super Mario RPG™'
+			date='17/11/23'
+			price='328.600,00'
 			platform='Nintendo Switch'
 			></card-precio>
 
