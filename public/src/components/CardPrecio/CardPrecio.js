@@ -13,18 +13,16 @@ class CardPrecio extends HTMLElement {
 	}
 
 	// Este método se llama cuando se cambia alguno de los atributos observados
-	attributeChangedCallback(name, oldValue, newValue) {
-		if (oldValue !== newValue) {
-			this.render();
-		}
+	attributeChangedCallback(propName, oldValue, newValue) {
+		this[propName] = newValue;
+		this.render();
 	}
-
 	render() {
 		this.shadowRoot.innerHTML = `
           <link rel='stylesheet' href='./src/components/card-destacados/card-destacados.css'></link>
           <a class="CardPrecio" href="#">
           <div class="imgPrecio">
-            <img src="${this.image || 'URL_default_imagen'}" alt="Product Image" loading="lazy" />
+            <img src="${this.image || 'URL_default_imagen'}"/>
           </div>
           <div class="ContenidoDestacados">
             <h3 class="tituloDestacados">${this.label || 'Título del Producto'}</h3>

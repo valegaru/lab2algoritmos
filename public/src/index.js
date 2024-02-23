@@ -99,22 +99,82 @@ label='Más detalles'></my-banner>
 			<card-novedades-s
 			image='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_400/ncom/en_US/articles/2024/discover-lara-crofts-original-adventures-in-tomb-raider-i-iii-remastered/1920x1080_TombRaider'
 			date='14/02/24'
-			title='Descubre las aventuras originales de Lara Croft en Tomb Raider I-III Remastered
-			Leer más
-			Ver todos los artículos de noticias
-			Los más vendido'></card-novedades-s>
+			title='Descubre las aventuras originales de Lara Croft en Tomb Raider I-III Remastered'></card-novedades-s>
 
 			<button type="button">Ver todos los articulos de noticias</button>
 			</section>
 
 			<section><h2>Los más vendidos de Nintendo Switch</h2>
 			<a>Ver la lista completa</a>
-			<card-precio></card-precio>
+			<card-precio img='https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.25/c_scale,w_300/ncom/software/switch/70010000003402/057249cf707a2a733c876c0eb453bb018ee6ea09f3aea5c350f4d76f70840d00'
+			label='Overcooked! 2'
+			date='1/9/21'
+			description='La oferta termina en: <span>16 días</span>'
+			price='15.975,00'
+			platform='Nintendo Switch'
+			></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
 			</section>
 
 			<section><h2>Nuevos lanzamientos de Nintendo Switch</h2>
 			<a>Ver la lista completa</a>
-			<card-precio></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
+			<card-precio img=''
+			label=''
+			date=''
+			description=''
+			price=''
+			platform='Nintendo Switch'
+			></card-precio>
+
 			</section>
 			`;
 	}
